@@ -7,10 +7,10 @@ import (
 
 // Путь к файлу закреплённых приложений
 func PinnedFilePath() string {
-	return filepath.Join(os.Getenv("HOME"), ".config", "gofi-launcher", "pinned.json")
+	return filepath.Join(os.Getenv("HOME"), ".config", "ricer", "pinned.json")
 }
 
 // Путь к файлу хранения весов приложений
 func UsageFilePath() string {
-	return filepath.Join(os.Getenv("HOME"), ".config", "gofi-launcher", "gofi-drun.json")
+	return filepath.Join(os.Getenv("HOME"), ".config", "ricer", "ricer-drun.json")
 }

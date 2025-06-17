@@ -1,4 +1,4 @@
-build: 
-	go build -o gofi ./
+build:
+	go build -o ricer ./cmd/ricer
 run: build
-	./gofi
+	./ricer
